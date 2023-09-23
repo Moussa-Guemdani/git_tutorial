@@ -12,6 +12,11 @@ $ git init
 - to track the files
 $ git add <name of the file>
 
+- to track all the files
+$ git add .
+$ git add --all
+$ git add -A
+
 - the check the stats
 $ git status
 
@@ -20,3 +25,17 @@ $ git rm --cached <file name>
 
 - to ignore files from getting changed when adding and commiting
 -- Create a file named <.gitignore> then inside the file type *txt to ignore all .txt files
+
+- commit <taking a snapshot of this repository in this current point in time>
+$ git commit -m "commit message"
+
+- to see the differences when chainging a file
+$ git diff
+
+-- Branches
+- Create a new branch
+$ git branch <branch Name>
+
+- swich between branches
+$ git switch <branch Name>
+$ git checkout <branche name>
