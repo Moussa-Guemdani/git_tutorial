@@ -49,3 +49,5 @@ $ git diff
 
 # ADDED COMMENT TO CHECK MERGE #
 >>>>>>> make_changes
+
+# Added change from git "comment"
