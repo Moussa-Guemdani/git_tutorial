@@ -32,3 +32,4 @@ $ git commit -m "commit message"
 -- to see the differences when chainging a file
 $ git diff
 
+# ADDED COMMENT TO CHECK MERGE #
