@@ -1,0 +1,22 @@
+- set user name
+$ git config --global user.name <name>
+
+- set user email address
+$ git config --global user.email <email>
+
+- initialise default git
+$ git config --global init.default bransh main 
+
+$ git init
+
+- to track the files
+$ git add <name of the file>
+
+- the check the stats
+$ git status
+
+- to untrack the file
+$ git rm --cached <file name> 
+
+- to ignore files from getting changed when adding and commiting
+-- Create a file named <.gitignore> then inside the file type *txt to ignore all .txt files
